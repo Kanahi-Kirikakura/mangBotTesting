@@ -17,7 +17,7 @@ def send_welcome(message):
 # Обработчик команды /info
 @bot.message_handler(commands=['info'])
 def send_info(message):
-    bot.reply_to(message, "Я создан на чтобы соибрать дань в виде беловласок")
+    bot.reply_to(message, "Я создана чтобы собирать дань в виде беловласок... ну и говорить когда меняется тайтл на вкладе")
 
 
 @bot.message_handler(commands=['вклады'])
