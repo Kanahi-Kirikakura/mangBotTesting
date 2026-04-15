@@ -17,8 +17,13 @@ def send_welcome(message):
 # Обработчик команды /info
 @bot.message_handler(commands=['info'])
 def send_info(message):
-    bot.reply_to(message, "Я создан на библиотеке pytelegrambotapi")
+    bot.reply_to(message, "Я создан на чтобы соибрать дань в виде беловласок")
 
+
+@bot.message_handler(commands=['вклады'])
+def send_info(message):
+    bot.reply_to(message, "СКОРО")
+    
 # Запуск бота
 if __name__ == '__main__':
     print("Бот запущен...")
