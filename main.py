@@ -2,7 +2,7 @@ import os
 import telebot
 from telebot import types
 TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 # Обработчик команды /start
 @bot.message_handler(commands=['start'])
